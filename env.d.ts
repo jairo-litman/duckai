@@ -6,6 +6,7 @@ declare module "bun" {
     X_USER_AGENT: string;
     X_VQD_STACK: string;
     X_MODELS_JSON: string;
+    X_EMIT_REASONING: string;
     PORT: number;
     NODE_ENV: "development" | "production";
   }
